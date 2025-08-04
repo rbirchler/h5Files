@@ -24,8 +24,11 @@ define(['N/record', 'N/search', 'N/task'],
                 title:"HERE",
                 details: "HERE"
             })
+
+            return "IT WORKED!"
         }
 
         return {launchRate}
 
     });
+
