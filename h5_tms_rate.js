@@ -1,1 +1,1 @@
-return {test: "IT WORKED!"}
+{test: ()=>{log.debug("here")}}
