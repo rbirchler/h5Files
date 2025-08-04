@@ -1,7 +1,6 @@
 /**
  *@author Habit 5 Business Services LLC
  * @todo Contact support@habit5.com for questions
- * @summary All of the functionality for the capitol coffee html template
  * @description functions for buttons and different css attributes
  **/
 $(document).ready(function () {
