@@ -4,18 +4,18 @@
  * @summary All of the functionality for the consolidate shipments html template
  * @description functions for buttons and different css attributes with a library of other unused functions underneath
  **/
-// $(document).ready( function () {
-//     require(
-//         ['N/url',
-//             'N/runtime',
-//             'N/ui/dialog',
-//             'N/https',
-//             'N/http',
-//             'N/ui/message',
-//             'N/search'
-//         ]);
-//     $('[data-toggle="tooltip"]').tooltip();
-// } );
+$(document).ready( function () {
+    require(
+        ['N/url',
+            'N/runtime',
+            'N/ui/dialog',
+            'N/https',
+            'N/http',
+            'N/ui/message',
+            'N/search'
+        ]);
+    $('[data-toggle="tooltip"]').tooltip();
+} );
 
 function loadModules() {
     return {
