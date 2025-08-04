@@ -42,7 +42,7 @@ function genLabels(data){
 
     //_h5_sl_select_rate
     var request = ns.https.post({
-        url: "https://922659.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2257&deploy=1&compid=922659&ns-at=AAEJ7tMQ4H8mKbVJfmctbCGM5zv6Zi-ODPVnJPAaPvhzOqfjteQ",
+        url: "https://922659-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2257&deploy=1&compid=922659_SB1&ns-at=AAEJ7tMQNv6ajZLPP2uW6HknYBFmo9BHA89pvuFSGhsVu00bdO0",
         body: JSON.stringify(data),
         headers: headerObj
     })
