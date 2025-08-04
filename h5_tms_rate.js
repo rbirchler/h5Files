@@ -1,1 +1,3 @@
-{test: ()=>{log.debug("here")}}
+{
+  "test": "function() { log.debug('test', 'here'); }"
+}
