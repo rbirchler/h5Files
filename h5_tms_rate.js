@@ -1,3 +1,4 @@
 {
-  "test": "function() { log.debug('test', 'here'); }"
+  "test": "function(a, b) {return a+b}"
 }
+
